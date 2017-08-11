@@ -1,0 +1,9 @@
+.log
+
+/*
+This is a log of all current iterations of Basic
+*/
+
+August.10.17-10:15PM
+  +Added ALL Current Files
+  *Updated MC - 1.12
