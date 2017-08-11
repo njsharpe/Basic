@@ -1,0 +1,16 @@
+[
+{
+  "modid": "basic",
+  "name": "Basic",
+  "description": "A basic mod",
+  "version": "${0.1}",
+  "mcversion": "${1.12}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["NoEffort"],
+  "credits": "NoEffort, FML Guys",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

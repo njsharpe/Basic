@@ -1,0 +1,16 @@
+item.strange_sapling.name=Strange Sapling
+item.strange_ingot.name=Strange Ingot
+item.strange_charcoal.name=Strange Charcoal
+item.strange_sword.name=Strange Sword
+item.strange_pickaxe.name=Strange Pickaxe
+item.strange_axe.name=Strange Axe
+item.strange_shovel.name=Strange Shovel
+item.strange_hoe.name=Strange Hoe
+item.strange_helmet.name=Strange Helmet
+item.strange_chestplate.name=Strange Chestplate
+item.strange_leggings.name=Strange Leggings
+item.strange_boots.name=Strange Boots
+tile.strange_plank.name=Strange Plank
+tile.strange_ore.name=Strange Ore
+tile.strange_block.name=Strange Block
+itemGroup.basictab=Basic
