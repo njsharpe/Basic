@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=bottom": { "model": "basic:strange_plank_slab_bottom" },
+    "half=top": { "model": "basic:strange_plank_slab_top" }
+  }
+}

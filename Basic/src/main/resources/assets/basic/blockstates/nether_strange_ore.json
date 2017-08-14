@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "basic:nether_strange_ore"
+    }
+  }
+}
