@@ -7,3 +7,9 @@ This is a log of all current iterations of Basic
 August.10.17-10:15PM
   +Added ALL Current Files
   *Updated MC - 1.12
+
+August.14.17-9:50AM
+  +Added strange_slab, strange_strairs
+  +Added quasar_sword, quasar_pickaxe
+  *Adjusted spawnrates of strange_ore
+  *Fixed strange_log
