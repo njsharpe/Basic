@@ -58,7 +58,7 @@ public abstract class CustomBlockSlab extends BlockSlab {
 
     @Override
     public int getMetaFromState(IBlockState state) {
-        if(!this.isDouble()) {
+        if(this.isDouble()) {
             return 0;
         }
         return ((EnumBlockHalf)state.getValue(HALF)).ordinal() + 1;

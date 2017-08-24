@@ -24,7 +24,7 @@ public class RecipeHandler {
 
     public static void registerSmelting() {
         GameRegistry.addSmelting(BlockInit.strange_ore, new ItemStack(ItemInit.strange_ingot), 10);
-        GameRegistry.addSmelting(BlockInit.strange_plank, new ItemStack(ItemInit.strange_charcoal), 7);
+        GameRegistry.addSmelting(BlockInit.planks, new ItemStack(ItemInit.strange_charcoal), 7);
     }
 
     private static void registerToolCrafting(Item sword, Item pickaxe, Item axe, Item shovel, Item hoe, Item ingot) {

@@ -1,9 +1,8 @@
 package com.noeffort.basic.handlers;
 
-import com.noeffort.basic.init.ArmorInit;
-import com.noeffort.basic.init.BlockInit;
-import com.noeffort.basic.init.ItemInit;
-import com.noeffort.basic.init.ToolInit;
+import com.noeffort.basic.gen.BasicOreGen;
+import com.noeffort.basic.init.*;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class RegistryHandler {
 
@@ -11,6 +10,7 @@ public class RegistryHandler {
 
         RecipeHandler.registerCrafting();
         RecipeHandler.registerSmelting();
+        GameRegistry.registerFuelHandler(new Fuels());
 
     }
 
@@ -27,6 +27,10 @@ public class RegistryHandler {
 
         BlockInit.init();
         BlockInit.register();
+        BlockInit.registerRenders();
+
+        GameRegistry.registerWorldGenerator(new BasicOreGen(), 0);
+
     }
 
 }

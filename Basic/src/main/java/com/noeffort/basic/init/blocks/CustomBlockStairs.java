@@ -12,6 +12,7 @@ public class CustomBlockStairs extends BlockStairs {
         setUnlocalizedName(name);
         setRegistryName(name);
         this.useNeighborBrightness = true;
+        setSoundType(sound);
     }
 
 }
