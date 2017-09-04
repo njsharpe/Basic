@@ -1,5 +1,6 @@
 package com.noeffort.basic.tabs;
 
+import com.noeffort.basic.init.BlockInit;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import com.noeffort.basic.init.ItemInit;
@@ -12,7 +13,7 @@ public class BasicTab extends CreativeTabs {
     }
 
     public ItemStack getTabIconItem() {
-        return new ItemStack(ItemInit.strange_sapling);
+        return new ItemStack(BlockInit.sapling);
     }
 
 

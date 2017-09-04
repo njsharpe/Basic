@@ -1,6 +1,6 @@
 package com.noeffort.basic.proxy;
 
-import com.noeffort.basic.handlers.RegistryHandler;
+import com.noeffort.basic.util.handlers.RegistryHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

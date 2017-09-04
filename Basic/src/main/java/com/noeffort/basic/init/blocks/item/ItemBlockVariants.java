@@ -1,6 +1,6 @@
 package com.noeffort.basic.init.blocks.item;
 
-import com.noeffort.basic.util.IMetaName;
+import com.noeffort.basic.util.interfaces.IMetaName;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;

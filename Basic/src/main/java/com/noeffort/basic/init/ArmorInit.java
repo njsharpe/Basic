@@ -1,7 +1,7 @@
 package com.noeffort.basic.init;
 
 import com.noeffort.basic.Basic;
-import com.noeffort.basic.Ref;
+import com.noeffort.basic.util.Ref;
 import com.noeffort.basic.init.armor.CustomArmor;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;

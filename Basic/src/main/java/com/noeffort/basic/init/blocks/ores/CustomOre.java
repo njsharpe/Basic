@@ -1,4 +1,4 @@
-package com.noeffort.basic.init.blocks.trees;
+package com.noeffort.basic.init.blocks.ores;
 
 import com.noeffort.basic.util.interfaces.IMetaName;
 import net.minecraft.block.Block;
@@ -18,14 +18,14 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
-public class CustomPlank extends Block implements IMetaName {
+public class CustomOre extends Block implements IMetaName {
 
-    public static final PropertyEnum<CustomPlank.EnumType> VARIANT =
-            PropertyEnum.<CustomPlank.EnumType>create("variant", CustomPlank.EnumType.class);
+    public static final PropertyEnum<CustomOre.EnumType> VARIANT =
+            PropertyEnum.<CustomOre.EnumType>create("variant", CustomOre.EnumType.class);
 
-    public CustomPlank(String name, SoundType sound) {
+    public CustomOre(String name, SoundType sound) {
 
-        super(Material.WOOD);
+        super(Material.ROCK);
         setUnlocalizedName(name);
         setRegistryName(name);
         setSoundType(sound);
@@ -34,24 +34,24 @@ public class CustomPlank extends Block implements IMetaName {
 
     @Override
     public int damageDropped(IBlockState state) {
-        return ((CustomPlank.EnumType)state.getValue(VARIANT)).getMeta();
+        return ((CustomOre.EnumType)state.getValue(VARIANT)).getMeta();
     }
 
     @Override
     public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items) {
-        for(CustomPlank.EnumType customplank$enumtype : CustomPlank.EnumType.values()) {
-            items.add(new ItemStack(this, 1, customplank$enumtype.getMeta()));
+        for(CustomOre.EnumType customore$enumtype : CustomOre.EnumType.values()) {
+            items.add(new ItemStack(this, 1, customore$enumtype.getMeta()));
         }
     }
 
     @Override
     public IBlockState getStateFromMeta(int meta) {
-        return this.getDefaultState().withProperty(VARIANT, CustomPlank.EnumType.byMetadata(meta));
+        return this.getDefaultState().withProperty(VARIANT, CustomOre.EnumType.byMetadata(meta));
     }
 
     @Override
     public int getMetaFromState(IBlockState state) {
-        return ((CustomPlank.EnumType)state.getValue(VARIANT)).getMeta();
+        return ((CustomOre.EnumType)state.getValue(VARIANT)).getMeta();
     }
 
     @Override
@@ -66,9 +66,11 @@ public class CustomPlank extends Block implements IMetaName {
 
     public static enum EnumType implements IStringSerializable {
 
-        STRANGE(0, "strange");
+        STRANGE(0, "strange"),
+        END_STRANGE(1, "end_strange"),
+        NETHER_STRANGE(2, "nether_strange");
 
-        private static final CustomPlank.EnumType[] META_LOOKUP = new CustomPlank.EnumType[values().length];
+        private static final CustomOre.EnumType[] META_LOOKUP = new CustomOre.EnumType[values().length];
         private final int meta;
         private final String name, unlocalizedName;
 
@@ -100,19 +102,19 @@ public class CustomPlank extends Block implements IMetaName {
             return this.name;
         }
 
-        public static CustomPlank.EnumType byMetadata(int meta) {
+        public static CustomOre.EnumType byMetadata(int meta) {
             return META_LOOKUP[meta];
         }
 
         static {
-            for(CustomPlank.EnumType customplank$enumtype : values()) {
-                META_LOOKUP[customplank$enumtype.getMeta()] = customplank$enumtype;
+            for(CustomOre.EnumType customore$enumtype : values()) {
+                META_LOOKUP[customore$enumtype.getMeta()] = customore$enumtype;
             }
         }
     }
 
     @Override
     public String getSpecialName(ItemStack stack) {
-        return CustomPlank.EnumType.values()[stack.getItemDamage()].getName();
+        return CustomOre.EnumType.values()[stack.getItemDamage()].getName();
     }
 }

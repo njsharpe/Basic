@@ -2,6 +2,7 @@ package com.noeffort.basic;
 
 import com.noeffort.basic.proxy.CommonProxy;
 import com.noeffort.basic.tabs.BasicTab;
+import com.noeffort.basic.util.Ref;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
