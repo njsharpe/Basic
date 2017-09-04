@@ -13,3 +13,8 @@ August.14.17-9:50AM
   +Added quasar_sword, quasar_pickaxe
   *Adjusted spawnrates of strange_ore
   *Fixed strange_log
+  
+September.4.17-11:03AM
+  *Remade most blocks
+  *Renamed most files
+  *Fixed all bugs
