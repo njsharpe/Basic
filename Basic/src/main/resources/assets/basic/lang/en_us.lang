@@ -1,4 +1,3 @@
-item.strange_sapling.name=Strange Sapling
 item.strange_ingot.name=Strange Ingot
 item.strange_charcoal.name=Strange Charcoal
 
@@ -13,12 +12,14 @@ item.strange_chestplate.name=Strange Chestplate
 item.strange_leggings.name=Strange Leggings
 item.strange_boots.name=Strange Boots
 
-tile.strange_log.name=Strange Log
-tile.strange_plank.name=Strange Plank
+tile.planks_strange.name=Strange Planks
+tile.log_strange.name=Strange Log
+tile.leaves_strange.name=Strange Leaves
+tile.sapling_strange.name=Strange Sapling
 
-tile.strange_ore.name=Strange Ore
-tile.nether_strange_ore.name=Nether Strange Ore
-tile.end_strange_ore.name=End Strange Ore
+tile.ore_strange.name=Strange Ore
+tile.ore_nether_strange.name=Nether Strange Ore
+tile.ore_end_strange.name=End Strange Ore
 tile.strange_block.name=Strange Block
 
 tile.strange_plank_stairs.name=Strange Plank Stairs

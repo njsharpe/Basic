@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "stage=0,variant=strange":  { "model": "basic:sapling_strange" },
+        "stage=1,variant=strange":  { "model": "basic:sapling_strange" }
+    }
+}

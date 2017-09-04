@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "axis=y,variant=strange" :  { "model": "basic:log_strange" },
+        "axis=z,variant=strange":   { "model": "basic:log_strange", "x": 90 },
+        "axis=x,variant=strange":   { "model": "basic:log_strange", "x": 90, "y": 90 },
+        "axis=none,variant=strange": { "model": "basic:strange_bark" }
+    }
+}

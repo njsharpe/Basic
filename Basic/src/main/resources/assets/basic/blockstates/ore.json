@@ -1,0 +1,8 @@
+
+{
+  "variants": {
+    "variant=strange": { "model": "basic:ore_strange" },
+    "variant=nether_strange": { "model": "basic:ore_nether_strange" },
+    "variant=end_strange": { "model": "basic:ore_end_strange" }
+  }
+}
