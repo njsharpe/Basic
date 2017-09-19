@@ -1,7 +1,8 @@
 package com.noeffort.basic.util.handlers;
 
-import com.noeffort.basic.util.gen.BasicOreGen;
 import com.noeffort.basic.init.*;
+import com.noeffort.basic.world.gen.BasicOreGen;
+import com.noeffort.basic.world.gen.StrangeTreeGen;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class RegistryHandler {
@@ -29,7 +30,8 @@ public class RegistryHandler {
         BlockInit.register();
         BlockInit.registerRenders();
 
-        GameRegistry.registerWorldGenerator(new BasicOreGen(), 0);
+        BasicOreGen.register();
+        StrangeTreeGen.register();
 
     }
 
