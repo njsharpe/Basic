@@ -17,4 +17,12 @@ August.14.17-9:50AM
 September.4.17-11:03AM
   *Remade most blocks
   *Renamed most files
+  *Fixed most bugs
+
+September.18.17-10:03PM
+  +Added Tree Generation
+  *Started using Branches
+  *Fixed Leaves
   *Fixed all bugs
+  *Removed unused files
+    
