@@ -13,7 +13,7 @@ public class BasicTab extends CreativeTabs {
     }
 
     public ItemStack getTabIconItem() {
-        return new ItemStack(BlockInit.sapling);
+        return new ItemStack(ItemInit.INGOT_STRANGE);
     }
 
 

@@ -1,14 +1,9 @@
 package com.noeffort.basic.proxy;
 
-import com.noeffort.basic.util.handlers.RegistryHandler;
-import net.minecraftforge.fml.common.event.*;
+import net.minecraft.item.Item;
 
-public class CommonProxy {
-
-    public void preInit(FMLPreInitializationEvent event) {
-        RegistryHandler.Common();
-    }
-    public void init(FMLInitializationEvent event) {}
-    public void postInit(FMLPostInitializationEvent event) {}
-
+public class CommonProxy
+{
+    public void registerItemRenderer(Item item, int meta, String id) {}
+    public void registerVariantRenderer(Item item, int meta, String filename, String id) {}
 }

@@ -3,22 +3,20 @@ package com.noeffort.basic;
 import com.noeffort.basic.proxy.CommonProxy;
 import com.noeffort.basic.tabs.BasicTab;
 import com.noeffort.basic.util.Ref;
+import com.noeffort.basic.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-import java.util.logging.Logger;
-
 @Mod(modid = Ref.MODID, name = Ref.NAME, version = Ref.VERSION)
 public class Basic {
 
-    @Mod.Instance
+    @Instance
     public static Basic instance;
-
-    public static final Logger LOGGER = Logger.getLogger(Ref.MODID);
 
     public static final CreativeTabs basictab = new BasicTab("basictab");
 
@@ -26,21 +24,12 @@ public class Basic {
     public static CommonProxy proxy;
 
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
-        LOGGER.info("Starting Pre-Initialization...");
-        proxy.preInit(event);
-    }
+    public void preInit(FMLPreInitializationEvent event) { RegistryHandler.preInitRegistries(); }
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event) {
-        LOGGER.info("Starting Initialization...");
-        proxy.init(event);
-    }
+    public void init(FMLInitializationEvent event) { RegistryHandler.initRegistries(); }
 
     @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event) {
-        LOGGER.info("Starting Post-Initialization...");
-        proxy.postInit(event);
-    }
+    public void postInit(FMLPostInitializationEvent event) { RegistryHandler.postInitRegistries(); }
 
 }
