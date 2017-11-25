@@ -4,6 +4,12 @@
 This is a log of all current iterations of Basic
 */
 
+== LEGEND ==
++, addition to mod
+-, removal from mod
+*, internal edits to mod
+~, [WIP] objects
+
 August.10.17-10:15PM
   +Added ALL Current Files
   *Updated MC - 1.12
@@ -27,6 +33,8 @@ September.18.17-10:03PM
   *Removed unused files
     
 November.24.17-8:31PM
+ +Added legend to Updates.txt
+  
  +Added more textures
  +Added iron nugget
  +Added strange grass
