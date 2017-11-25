@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "variant=strange": { "model": "basic:ore_end_strange" }
+  }
+}

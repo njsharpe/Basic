@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "variant=strange": { "model": "basic:ore_overworld_strange" }
+  }
+}

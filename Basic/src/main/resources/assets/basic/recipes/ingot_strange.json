@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "B"
+  ],
+
+  "key":
+  {
+    "B":
+    {
+      "item": "basic:block_strange"
+    }
+  },
+
+  "result":
+  {
+    "item": "basic:ingot_strange",
+    "count": 9
+  }
+}

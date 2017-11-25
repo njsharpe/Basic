@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "basic:ingot_strange"
+    },
+    "title": {
+      "translate": "advancements.recipes.ingot_strange.title"
+    },
+    "title": {
+      "translate": "advancements.recipes.ingot_strange.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "basic:inventory/root",
+  "criteria": {
+    "get_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "basic:ingot_strange"
+          }
+        ]
+      }
+    }
+  }
+}

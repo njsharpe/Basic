@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " I ",
+    " I ",
+    " S "
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "basic:ingot_strange"
+    },
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "basic:sword_strange",
+    "count": 1
+  }
+}

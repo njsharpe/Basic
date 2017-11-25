@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "basic:ore_overworld",
+      "data": 0
+    },
+    "title": {
+      "translate": "advancements.inventory.root.title"
+    },
+    "description": {
+      "translate": "advancements.inventory.root.description"
+    },
+    "background": "basic:textures/blocks/blocks_strange.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "goal"
+  },
+  "criteria": {
+    "inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items:": [
+          {
+            "item": "basic:ore_overworld",
+            "data": 0
+          }
+        ]
+        }
+      }
+    }
+  }
+}

@@ -1,32 +1,36 @@
-item.strange_ingot.name=Strange Ingot
-item.strange_charcoal.name=Strange Charcoal
+item.ingot_strange.name=Strange Ingot
+item.charcoal_strange.name=Strange Charcoal
 
-item.strange_sword.name=Strange Sword
-item.strange_pickaxe.name=Strange Pickaxe
-item.strange_axe.name=Strange Axe
-item.strange_shovel.name=Strange Shovel
-item.strange_hoe.name=Strange Hoe
+item.axe_strange.name=Strange Axe
+item.hoe_strange.name=Strange Hoe
+item.pickaxe_strange.name=Strange Pickaxe
+item.shovel_strange.name=Strange Shovel
+item.sword_strange.name=Strange Sword
 
-item.strange_helmet.name=Strange Helmet
-item.strange_chestplate.name=Strange Chestplate
-item.strange_leggings.name=Strange Leggings
-item.strange_boots.name=Strange Boots
+item.helmet_strange.name=Strange Helmet
+item.chestplate_strange.name=Strange Chestplate
+item.leggings_strange.name=Strange Leggings
+item.boots_strange.name=Strange Boots
 
-tile.planks_strange.name=Strange Planks
-tile.log_strange.name=Strange Log
+tile.block_strange.name=Strange Block
 tile.leaves_strange.name=Strange Leaves
+tile.log_strange.name=Strange Log
+tile.planks_strange.name=Strange Plank
 tile.sapling_strange.name=Strange Sapling
+tile.grass_strange.name=Strange Grass
 
-tile.ore_strange.name=Strange Ore
-tile.ore_nether_strange.name=Nether Strange Ore
-tile.ore_end_strange.name=End Strange Ore
-tile.strange_block.name=Strange Block
+tile.ore_overworld_strange.name=Strange Ore
+tile.ore_nether_strange.name=Strange Nether Ore
+tile.ore_end_strange.name=Strange End Ore
 
-tile.strange_plank_stairs.name=Strange Plank Stairs
-tile.strange_plank_slab_half.name=Strange Plank Slab
-tile.strange_plank_slab_double.name=Strange Plank Double Slab
+advancements.inventory.root.title=Stranger Things
+advancements.inventory.root.description=Strange new things...
+advancements.recipes.ingot_strange.title=Strange Bars
+advancements.recipes.ingot_strange.description=Brown metal bars?
 
-item.quasar_sword.name=§dQuasar Sword
-item.quasar_pickaxe.name=§dQuasar Pickaxe
+generator.Strange=Strange
+generator.Custom=Basic Biomes
+
+entity.crawler.name=Crawler
 
 itemGroup.basictab=Basic

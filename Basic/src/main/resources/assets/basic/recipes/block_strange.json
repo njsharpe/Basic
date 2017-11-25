@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+      "III",
+      "III",
+      "III"
+    ],
+
+    "key":
+    {
+        "I":
+        {
+            "item": "basic:ingot_strange"
+        }
+    },
+
+    "result":
+    {
+        "item": "basic:block_strange",
+        "count": 1
+    }
+}
