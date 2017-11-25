@@ -26,3 +26,18 @@ September.18.17-10:03PM
   *Fixed all bugs
   *Removed unused files
     
+November.24.17-8:31PM
+ +Added more textures
+ +Added iron nugget
+ +Added strange grass
+ +Added grass spread
+ +Added strange biome, strange world type, basic world type
+ +Added Crawler mob
+  ~[WIP] Crawler has no movement animations, sounds, or other yet
+  ~[WIP] Tool functionality (shovel & hoe on grass/dirt)
+ *Edited almost all textures
+ *Adjusted spawnrates of strange_ore (all dimensions)
+ *Adjusted biome spawnrate, biome color, water color
+  ~[WIP] Biome not finalized
+ *Re-organized every file
+ *Updated MC - 1.12.2
